@@ -125,17 +125,17 @@ animals = [camel, lion, deer, goose, bat, rabbit]
 # write your code here
 while True:
     enter = input("Please enter the number of the habitat you would like to view:")
-    if enter == "0":
-        print(animals[0])
     if enter == "1":
-        print(animals[1])
+        print(animals[0])
     if enter == "2":
-        print(animals[2])
+        print(animals[1])
     if enter == "3":
-        print(animals[3])
+        print(animals[2])
     if enter == "4":
-        print(animals[4])
+        print(animals[3])
     if enter == "5":
+        print(animals[4])
+    if enter == "6":
         print(animals[5])
     if enter == 'exit':
         print("See you later!")
